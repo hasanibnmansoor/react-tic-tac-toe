@@ -1,0 +1,52 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+
+.cell {
+  background-color: darkcyan;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.cell {
+  font-size: 40px;
+}
+
+.result {
+  width: 308px;
+  border: solid 1px black;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  font-variant: small-caps;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.reset {
+  width: 308px;
+  border: solid 1px black;
+  background-color: orange;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  font-variant: small-caps;
+  cursor: pointer;
+  margin-top: 10px;
+}
